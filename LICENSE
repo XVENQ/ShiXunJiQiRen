@@ -1,0 +1,56 @@
+# 许可协议 / License
+
+本仓库包含三类不同性质的成果，分别适用不同协议。
+
+---
+
+## 1. 美术资产（模型、贴图）
+
+适用范围：`assets/models/`、`assets/textures/` 下的全部文件。
+
+**CC BY-NC 4.0**（Creative Commons Attribution-NonCommercial 4.0 International）
+
+- ✅ 可以下载、修改、用于个人学习与作品演示
+- ✅ 可以用于非商业性的教学、评测、同人创作
+- ✅ 必须署名：`ROBOT-A2 by <作者> (github.com/<user>/hardsurface-robot-portfolio)`
+- ❌ 不得用于商业项目、付费产品或商业宣传
+- ❌ 不得将模型/贴图原样再分发为素材包出售
+
+协议全文：https://creativecommons.org/licenses/by-nc/4.0/
+
+---
+
+## 2. 展示图与文档
+
+适用范围：`renders/`、`docs/`、`README.md`。
+
+**CC BY-NC 4.0**
+
+- ✅ 可转载、引用，需注明出处
+- ❌ 不得商用（包括用于培训机构的宣传物料）
+
+---
+
+## 3. 第三方内容
+
+| 内容 | 版权归属 | 说明 |
+| --- | --- | --- |
+| 贴花素材（PNG DISEÑO 系列） | 原素材站 / 原作者 | **未在本仓库分发**，仅在成品贴图中烘焙使用 |
+| 参考图（花瓣等平台） | 原作者 | **未在本仓库分发**，仅在 `reference/README.md` 注明来源 |
+| 教学视频 | 课程讲师 | **未在本仓库分发** |
+| 工具软件 | Autodesk / Adobe / Rizom-Lab | 本项目不含任何软件本体或破解文件 |
+
+---
+
+## 免责声明
+
+本仓库仅用于个人作品展示与学习交流。模型参考了公开的机器人概念设计，属于学习性质的同人再创作，未用于任何商业用途。如权利人认为存在侵权，请联系删除。
+
+---
+
+## English Summary
+
+- **3D assets** (`assets/`): CC BY-NC 4.0 — free for learning and non-commercial showcase with attribution.
+- **Renders & docs** (`renders/`, `docs/`): CC BY-NC 4.0 with attribution.
+- **Third-party content**: not redistributed. Decals and reference images belong to their respective owners.
+- **No software binaries** are included in this repository.

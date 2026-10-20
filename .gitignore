@@ -1,0 +1,58 @@
+# ---------- 3D 软件缓存与锁文件 ----------
+*.painter_lock
+*.spp.painter_lock
+*_autosave_*.spp
+*_autosave_*.max
+*.max.bak
+*.mxb
+*.3ds.bak
+
+# Substance Painter 临时导出目录
+*-exported/
+export/
+
+# ---------- 3ds Max 备份 ----------
+*.max.bak
+backup/
+autoback/
+*.mzx
+
+# ---------- Blender ----------
+*.blend1
+*.blend2
+
+# ---------- 大体积媒体（作品集不收录） ----------
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+
+# 例外：转盘演示视频体积可控（< 1 MB），必须入库
+!assets/video/*.mp4
+
+# ---------- 系统垃圾 ----------
+Thumbs.db
+desktop.ini
+.DS_Store
+ehthumbs.db
+
+# ---------- 第三方素材（版权不属于本项目） ----------
+# 贴花素材原文件，只在本地使用
+assets/textures/_thirdparty/
+# 花瓣参考图
+reference/raw/
+
+# ---------- 大体积源工程 ----------
+# 如需入库，改用 Git LFS（见 .gitattributes）
+*.spp
+*.max
+
+# ---------- 可视化/临时渲染 ----------
+renders/_check.png
+renders/_wip/
+*.png.tmp
+
+# ---------- IDE ----------
+.vscode/
+.idea/
